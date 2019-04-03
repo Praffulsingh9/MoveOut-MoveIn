@@ -14,7 +14,7 @@ body,
 }
 
 .welcome-logo {
-  height: 180px;
+  height: 150px;
   display: block;
   margin: 0 auto;
 }
@@ -31,7 +31,7 @@ body,
 .welcome-description {
   color: #fff;
   font-family: Nunito, sans-serif;
-  font-size: 18.5px;
+  font-size: 16.5px;
   line-height: 1.65;
   text-align: center;
   margin-top: 0;
@@ -129,6 +129,7 @@ body,
   display: -webkit-flex; /* NEW - Chrome */
   display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
   align-items: center;
+  flex-direction: column;
   -webkit-align-items: center;
   justify-content: center;
   -webkit-justify-content: center;
@@ -153,7 +154,6 @@ input::-webkit-calendar-picker-indicator {
 
 /*Footer*/
 .footer {
-  position: absolute;
   bottom: 10px;
   left: 0;
   right: 0;
