@@ -2,6 +2,9 @@
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "10.3.0"
+  },
   "homepage": "http://Praffulsingh9.github.io/MoveOut-MoveIn",
   "devDependencies": {
     "gh-pages": "^2.0.1",
