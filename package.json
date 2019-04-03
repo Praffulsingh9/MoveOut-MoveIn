@@ -2,20 +2,18 @@
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "10.3.0"
-  },
-  "homepage": "http://Praffulsingh9.github.io/MoveOut-MoveIn",
   "devDependencies": {
-    "gh-pages": "^2.0.1",
     "sw-precache": "^4.3.0"
+  },
+  "engines": {
+    "node": "6.9.4"
   },
   "dependencies": {
     "jquery": "^3.1.1",
     "react": "^15.4.1",
+    "react-scripts": "0.8.4",
     "react-bootstrap": "^0.30.7",
     "react-dom": "^15.4.1",
-    "react-scripts": "^2.1.8",
     "react-select": "^1.0.0-rc.2",
     "whatwg-fetch": "^2.0.2"
   },
@@ -24,7 +22,6 @@
     "build": "react-scripts build && sw-precache --verbose --config=sw-precache-config.js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build"
   }
 }

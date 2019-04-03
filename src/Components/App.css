@@ -312,7 +312,6 @@ a.social_links:hover {
   height: 75px;
   width: 75px;
   color: #fff;
-  
 }
 
 #icon-box {
@@ -774,14 +773,13 @@ a.social_links:hover {
 }
 /*Media Queries*/
 .welcome-block {
-  background: #2c3338;
   width: 500px !important;
   padding: 10px;
 }
 
 .welcome-details-block {
   background: #fff;
-  color: #2c3338;
+
   width: 500px !important;
   margin: 10px;
   border-radius: 10px;
