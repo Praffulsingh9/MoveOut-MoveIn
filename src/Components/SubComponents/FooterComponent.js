@@ -9,16 +9,13 @@ class FooterComponent extends React.Component {
 				<div className='footer-description2'>Built with <a href="https://facebook.github.io/react/" 
 				target="_blank" className="footer-link-description">React</a> <img src={react_logo} className='footer-logo' alt='React Logo'/></div>
 				<div className='footer-social-media'>
-					<a href="http://hassandjirdeh.com" target="_blank" className="social_links">
-				        <i id="social-link" className="fa fa-h-square fa-2x social" aria-hidden="true"></i>
-				    </a>
-				    <a href="https://github.com/djirdehh" target="_blank" className="social_links">
+				    <a href="https://github.com/Praffulsingh9" target="_blank" className="social_links">
 				        <i id="social-link" className="fa fa-github-square fa-2x social" aria-hidden="true"></i>
 				    </a>
-					<a href="https://ca.linkedin.com/in/hassandjirdeh" target="_blank" className="social_links">
+					<a href="https://www.linkedin.com/in/prafful-singh-08572313b/" target="_blank" className="social_links">
 				        <i id="social-link" className="fa fa-linkedin-square fa-2x social" aria-hidden="true"></i>
 				     </a>
-				    <a href="mailto:hassan.djirdeh@mail.utoronto.ca" target="_blank" className="social_links">
+				    <a href="mailto:prafful.singh017@gmail.com" target="_blank" className="social_links">
 				    	<i id="social-em" className="fa fa-envelope-square fa-2x social"></i>
 				    </a>
 				</div>
